@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #F9FAFF repeat;
+    height: 3448px;
+}
+
+.header{
+    width: 1440px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nav ul li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    transition: all .5s;
+}
+.nav ul li:hover{
+    color: rgba(255, 104, 56, 1);
+}
+.nav-button{
+    width: 120px;
+    height: 50.41px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgba(255, 122, 80, 1);
+    box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+    font-size: 70px;
+    color: #363853;
+}
+
+.span{
+    color:#FF7A50;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 0 0 30px;
+}
+
+.hero-content .wu  {
+    padding: 10px 20px;
+    margin-right: 15px;
+    color: white;
+    background-color: #ff6b3b;
+    border-radius: 5px;
+} 
+.hero-image {
+    max-width: 40%;
+}
+
+.header {
+    padding: 40px;  
+    margin-bottom: 40px;
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delivery-image {
+ 
+    height: auto;
+}
+
+.highlight{
+    color: #FF7A50;
+    font-size: 40px;
+}
+
+.park{
+    margin-top:40px;
+}
+
+.text {
+    max-width: 500px;
+}
+
+.text h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.text h1 .highlight {
+    color: #ff6b6b;
+}
+
+.text p {
+    font-size: 1rem;
+    color: #666;
+    margin: 20px 0;
+}
+
+.see-more {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border:none;
+    border-radius:30px 30px 1px 30px;
+    margin-top: 200px;
+    
+}
+
+.see-more:hover {
+    background-color: #ff4b4b;
+}
+
+
+.h2{
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.highlight{
+    text-align: center;
+}
+
+
+
+h1 {
+    color: #FF7A01;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.restaurant {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.restaurant img {
+    width: 100%;
+    height: auto;
+}
+
+.restaurant-info {
+    padding: 15px;
+}
+
+.restaurant-info h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+
+.restaurant-info .hours img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.restaurant-info .hours p {
+    margin: 0;
+    color: #555;
+}
+
+.restaurant-info .cta {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.restaurant-info .cta img {
+    width: 30px;
+    height: 30px;
+}
+
+.sap{
+    color: #FF7A50;
+}
+
+.rt{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.text{
+    margin: 0 auto;
+}
+
+
+.ext .p .h2{
+    display: flex;
+}
+
+.ext .img{
+    margin-left: 40px;
+}
+
+.big{
+    width: 1170px;
+    height: 312px;
+    background-color: #FF7A01;
+}
+
+.sub{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.buttons{
+    padding-top: 40px;
+    display: flex;
+}
+
+p{
+    padding-top:40px;
+}
+
+footer {
+    background-color: #ff6b35; /* Match the orange color */
+    padding: 40px 0;
+    text-align: center;
+    width: 1170px;
+    height: 312px;
+
+}
+
+.subscribe-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.subscribe-section h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.subscribe-form {
+    position: relative; /* Относительное позиционирование от начального места */
+    margin-left: -240px;
+    padding-top: 60px;
+    width: 1170px;
+    height: 312px;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    width: 70%;
+    
+    
+}
+
+.subscribe-form button {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff8143; /* Slightly darker orange for the button */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 30px 30px 0;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+    background-color: #e05b2e; /* Even darker shade for hover effect */
+}
